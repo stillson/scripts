@@ -1,0 +1,7 @@
+#!/bin/sh
+
+. ~/lpy/bin/activate
+
+flake8 $*
+pylint -f parseable $*
+
